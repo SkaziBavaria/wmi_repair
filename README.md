@@ -8,7 +8,7 @@ This script repairs the Windows Management Instrumentation (WMI) components on y
 ## Usage
 1. Open PowerShell as an administrator
 2. Navigate to the directory where the script is saved
-3. Run the script by entering the following command: .\wmi_repair.ps1
+3. Run the script by entering the following command: `.\wmi_repair.ps1`
 
 ## What the Script Does
 The script performs the following actions:
@@ -20,7 +20,7 @@ The script performs the following actions:
 5. Verifies if the WMI service has started successfully
 
 ## Troubleshooting
-If the script fails to stop the WMI service, it will attempt to force stop it using the Stop-Process cmdlet. If this also fails, you can try stopping the service manually through the Services tool.
+If the script fails to stop the WMI service, it will attempt to force stop it using the `Stop-Process` cmdlet. If this also fails, you can try stopping the service manually through the Services tool.
 
 If the script fails to re-register the WMI components or start the WMI service, it will display an error message indicating the failure.
 
